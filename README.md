@@ -12,7 +12,7 @@ You can install by cloning this repository:
 git clone https://github.com/diegoscosta/how-many-shares-in.git
 ```
 
-Then inside the wishlistr folder run:
+Then inside the how-many-shares-in folder run:
 ```ssh
 bundle install
 ```
