@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.pinterest.com/v1/urls/count.json?url=https://www.google.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/javascript
+      Expires:
+      - Fri, 15 Jan 2016 18:46:59 GMT
+      X-Pinterest-Rid:
+      - '413103381124'
+      X-Varnish:
+      - 1573373986 1573034232
+      Content-Length:
+      - '63'
+      Date:
+      - Fri, 15 Jan 2016 18:34:13 GMT
+      X-Cache:
+      - MISS from sense8.cw
+      X-Cache-Lookup:
+      - MISS from sense8.cw:3128
+      Via:
+      - 1.1 sense8.cw (squid)
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: receiveCount({"url":"https://www.google.com/","count":1359918})
+    http_version: 
+  recorded_at: Fri, 15 Jan 2016 18:34:21 GMT
+recorded_with: VCR 3.0.1

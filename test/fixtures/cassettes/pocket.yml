@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://widgets.getpocket.com/v1/button?count=vertical&url=https://www.google.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - https://getpocket.com,https://widgets.getpocket.com,http://getpocket.com,http://widgets.getpocket.com
+      Cache-Control:
+      - max-age=172800
+      Content-Location:
+      - button.php
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Fri, 15 Jan 2016 18:34:12 GMT
+      Expires:
+      - Sun, 17 Jan 2016 18:34:12 GMT
+      Server:
+      - Apache
+      Tcn:
+      - choice
+      Vary:
+      - negotiate
+      Content-Length:
+      - '1004'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "<html>\n<head>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"https://d7x5nblzs94me.cloudfront.net/v1/c/button.css?v=6\"
+        />\n<script type=\"text/javascript\" src=\"https://d7x5nblzs94me.cloudfront.net/v1/j/shared.js?v=2\"></script>\n</head>\n<body>\n\n<div
+        class=\"widget vertical pocket center\">\n\t<a id=\"btn\">\n\t\t\t\t<!-- \n\t\tPlease
+        do not scrape this for the Pocket count. \n\t\tIt is not relible for you to
+        use and will likely change. \n\t\tContact us at api@getpocket.com for an official
+        API. \n\t\tThanks! \n\t\t-->\n\t\t<span><em id=\"cnt\">65849</em><i></i><u></u></span>\n\t\t\t\t<b></b>\n\t</a>\n</div>\n\n<script
+        type=\"text/javascript\">\nvar POCKET_DOMAIN = 'getpocket.com';\nvar iLi =
+        false;\n\nvar btnData = {\"mode\":\"viapocketbutton\",\"ct\":\"a43e19e58ce0b28e43d91a9596ac060899981038\",\"ctn\":\"7a3d3dafdea6fd6ead77dc8cf3d19e3ebca9f6dd\",\"label\":\"pocket\",\"count\":\"vertical\",\"src\":\"\",\"url\":\"https:\\/\\/www.google.com\\/\"};\n</script>\n<script
+        type=\"text/javascript\" src=\"https://d7x5nblzs94me.cloudfront.net/v1/j/button.js?v=5\"></script>\n</body>\n</html>"
+    http_version: 
+  recorded_at: Fri, 15 Jan 2016 18:34:20 GMT
+recorded_with: VCR 3.0.1

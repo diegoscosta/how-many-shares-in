@@ -1,0 +1,453 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.reddit.com/api/info.json?url=https://www.google.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 15 Jan 2016 18:34:11 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '4826'
+      Set-Cookie:
+      - __cfduid=d1ee9a700454befeac181ace44515c6261452882851; expires=Sat, 14-Jan-17
+        18:34:11 GMT; path=/; domain=.reddit.com; HttpOnly
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Reddit-Tracking, X-Moose
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=BDKC9E9gWSmnocNj5dteHFhV8xyPplbWoHY24s02%2FjrlQAzdYDWhrzYa5048%2FagXqJ1LvONHUeo%3D
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Cf-Cache-Status:
+      - HIT
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2653ac5f836e18c1-GRU
+      X-Cache:
+      - MISS from sense8.cw
+      X-Cache-Lookup:
+      - MISS from sense8.cw:3128
+      Via:
+      - 1.1 sense8.cw (squid)
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t3",
+        "data": {"domain": "google.com", "banned_by": null, "media_embed": {}, "subreddit":
+        "clevelandcavs", "selftext_html": null, "selftext": "", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "410rxh", "from_kind": null, "gilded": 0, "archived": false, "clicked": false,
+        "report_reasons": null, "author": "livando1", "media": null, "score": 16,
+        "approved_by": null, "over_18": false, "hidden": false, "num_comments": 2,
+        "thumbnail": "default", "subreddit_id": "t5_2sl2k", "hide_score": false, "edited":
+        false, "link_flair_css_class": null, "author_flair_css_class": null, "downs":
+        0, "secure_media_embed": {}, "saved": false, "removal_reason": null, "stickied":
+        false, "from": null, "is_self": false, "from_id": null, "permalink": "/r/clevelandcavs/comments/410rxh/easiest_way_to_vote_under_ten_seconds/",
+        "locked": false, "name": "t3_410rxh", "created": 1452849946.0, "url": "https://www.google.com/#q=NBAVote+cleveland",
+        "author_flair_text": null, "quarantine": false, "title": "Easiest way to vote
+        (under ten seconds)", "created_utc": 1452821146.0, "distinguished": null,
+        "mod_reports": [], "visited": false, "num_reports": null, "ups": 16}}, {"kind":
+        "t3", "data": {"domain": "google.com", "banned_by": null, "media_embed": {},
+        "subreddit": "MLPLounge", "selftext_html": null, "selftext": "", "likes":
+        null, "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "40cqdh", "from_kind": null, "gilded": 0, "archived": false, "clicked":
+        false, "report_reasons": null, "author": "DracoAzuleAA", "media": null, "score":
+        4, "approved_by": null, "over_18": false, "hidden": false, "num_comments":
+        4, "thumbnail": "", "subreddit_id": "t5_2t403", "hide_score": false, "edited":
+        false, "link_flair_css_class": null, "author_flair_css_class": "rainbowdash",
+        "downs": 0, "secure_media_embed": {}, "saved": false, "removal_reason": null,
+        "stickied": false, "from": null, "is_self": false, "from_id": null, "permalink":
+        "/r/MLPLounge/comments/40cqdh/ok_google_do_a_barrel_roll/", "locked": false,
+        "name": "t3_40cqdh", "created": 1452482884.0, "url": "https://www.google.com/#q=do+a+barrel+roll",
+        "author_flair_text": "Rainbow Dash", "quarantine": false, "title": "Ok Google.
+        Do a barrel roll.", "created_utc": 1452454084.0, "distinguished": null, "mod_reports":
+        [], "visited": false, "num_reports": null, "ups": 4}}, {"kind": "t3", "data":
+        {"domain": "google.com", "banned_by": null, "media_embed": {}, "subreddit":
+        "JonTron", "selftext_html": null, "selftext": "", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "3zrmaz", "from_kind": null, "gilded": 0, "archived": false, "clicked": false,
+        "report_reasons": null, "author": "Jrgnj16", "media": null, "score": 3, "approved_by":
+        null, "over_18": false, "hidden": false, "num_comments": 0, "thumbnail": "",
+        "subreddit_id": "t5_2ua5i", "hide_score": false, "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": "59", "downs": 0, "secure_media_embed": {},
+        "saved": false, "removal_reason": null, "stickied": false, "from": null, "is_self":
+        false, "from_id": null, "permalink": "/r/JonTron/comments/3zrmaz/mfw_thirtytwo_and_a_half_deciseconds_into_google/",
+        "locked": false, "name": "t3_3zrmaz", "created": 1452140604.0, "url": "https://www.google.com/#q=%20",
+        "author_flair_text": "", "quarantine": false, "title": "MFW Thirty-Two And
+        A Half Deciseconds Into Google And Chill And You Give Yourself That Look",
+        "created_utc": 1452111804.0, "distinguished": null, "mod_reports": [], "visited":
+        false, "num_reports": null, "ups": 3}}, {"kind": "t3", "data": {"domain":
+        "google.com", "banned_by": null, "media_embed": {}, "subreddit": "MakingaMurderer",
+        "selftext_html": null, "selftext": "", "likes": null, "suggested_sort": null,
+        "user_reports": [], "secure_media": null, "link_flair_text": null, "id": "3zbxa5",
+        "from_kind": null, "gilded": 0, "archived": false, "clicked": false, "report_reasons":
+        null, "author": "LouieDoodie", "media": null, "score": 1, "approved_by": null,
+        "over_18": false, "hidden": false, "num_comments": 5, "thumbnail": "default",
+        "subreddit_id": "t5_3b2cn", "hide_score": false, "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "secure_media_embed": {},
+        "saved": false, "removal_reason": null, "stickied": false, "from": null, "is_self":
+        false, "from_id": null, "permalink": "/r/MakingaMurderer/comments/3zbxa5/check_out_the_kratz_law_firm_reviews/",
+        "locked": false, "name": "t3_3zbxa5", "created": 1451890233.0, "url": "https://www.google.com/#q=ken+kratz+law+firm&amp;lrd=0x88045f089baab0db:0x9d54971e55722a8d,1",
+        "author_flair_text": null, "quarantine": false, "title": "Check out the Kratz
+        Law Firm reviews.", "created_utc": 1451861433.0, "distinguished": null, "mod_reports":
+        [], "visited": false, "num_reports": null, "ups": 1}}, {"kind": "t3", "data":
+        {"domain": "google.com", "banned_by": null, "media_embed": {}, "subreddit":
+        "EarthPorn", "selftext_html": null, "selftext": "", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "3ysccc", "from_kind": null, "gilded": 0, "archived": false, "clicked": false,
+        "report_reasons": null, "author": "JustHere4TheKarma", "media": null, "score":
+        1, "approved_by": null, "over_18": false, "hidden": false, "num_comments":
+        1, "thumbnail": "default", "subreddit_id": "t5_2sbq3", "hide_score": false,
+        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
+        "downs": 0, "secure_media_embed": {}, "saved": false, "removal_reason": null,
+        "stickied": false, "from": null, "is_self": false, "from_id": null, "permalink":
+        "/r/EarthPorn/comments/3ysccc/google/", "locked": false, "name": "t3_3ysccc",
+        "created": 1451514717.0, "url": "https://www.google.com/", "author_flair_text":
+        null, "quarantine": false, "title": "Google", "created_utc": 1451485917.0,
+        "distinguished": null, "mod_reports": [], "visited": false, "num_reports":
+        null, "ups": 1}}, {"kind": "t3", "data": {"domain": "google.com", "banned_by":
+        null, "media_embed": {}, "subreddit": "CODZombies", "selftext_html": null,
+        "selftext": "", "likes": null, "suggested_sort": "top", "user_reports": [],
+        "secure_media": null, "link_flair_text": null, "id": "3yb64y", "from_kind":
+        null, "gilded": 0, "archived": false, "clicked": false, "report_reasons":
+        null, "author": "ChocolateRaiyn", "media": null, "score": 1, "approved_by":
+        null, "over_18": false, "hidden": false, "num_comments": 1, "thumbnail": "default",
+        "subreddit_id": "t5_2sal9", "hide_score": false, "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "secure_media_embed": {},
+        "saved": false, "removal_reason": null, "stickied": false, "from": null, "is_self":
+        false, "from_id": null, "permalink": "/r/CODZombies/comments/3yb64y/looking_for_group_soe_ee_ps4/",
+        "locked": false, "name": "t3_3yb64y", "created": 1451183934.0, "url": "https://www.google.com/",
+        "author_flair_text": null, "quarantine": false, "title": "Looking for Group
+        (SoE EE) PS4", "created_utc": 1451155134.0, "distinguished": null, "mod_reports":
+        [], "visited": false, "num_reports": null, "ups": 1}}, {"kind": "t3", "data":
+        {"domain": "google.com", "banned_by": null, "media_embed": {}, "subreddit":
+        "atheism", "selftext_html": null, "selftext": "", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "3y76ot", "from_kind": null, "gilded": 0, "archived": false, "clicked": false,
+        "report_reasons": null, "author": "Parrot132", "media": null, "score": 10,
+        "approved_by": null, "over_18": false, "hidden": false, "num_comments": 0,
+        "thumbnail": "default", "subreddit_id": "t5_2qh2p", "hide_score": false, "edited":
+        false, "link_flair_css_class": null, "author_flair_css_class": "no-knight",
+        "downs": 0, "secure_media_embed": {}, "saved": false, "removal_reason": null,
+        "stickied": false, "from": null, "is_self": false, "from_id": null, "permalink":
+        "/r/atheism/comments/3y76ot/todays_google_doodle_has_no_connection_with/",
+        "locked": false, "name": "t3_3y76ot", "created": 1451094793.0, "url": "https://www.google.com/",
+        "author_flair_text": "Strong Atheist", "quarantine": false, "title": "Today''s
+        Google Doodle has no connection with Christianity. Hooray for Google!", "created_utc":
+        1451065993.0, "distinguished": null, "mod_reports": [], "visited": false,
+        "num_reports": null, "ups": 10}}, {"kind": "t3", "data": {"domain": "google.com",
+        "banned_by": null, "media_embed": {}, "subreddit": "yoga", "selftext_html":
+        null, "selftext": "", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "3wt25a", "from_kind":
+        null, "gilded": 0, "archived": false, "clicked": false, "report_reasons":
+        null, "author": "[deleted]", "media": null, "score": 2, "approved_by": null,
+        "over_18": false, "hidden": false, "num_comments": 0, "thumbnail": "", "subreddit_id":
+        "t5_2qhq6", "hide_score": false, "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "secure_media_embed": {},
+        "saved": false, "removal_reason": null, "stickied": false, "from": null, "is_self":
+        false, "from_id": null, "permalink": "/r/yoga/comments/3wt25a/i_got_a_kick_out_of_google_today_happy_birthday/",
+        "locked": false, "name": "t3_3wt25a", "created": 1450142000.0, "url": "https://www.google.com/",
+        "author_flair_text": null, "quarantine": false, "title": "I got a kick out
+        of Google today. Happy Birthday to BKS Iyengar", "created_utc": 1450113200.0,
+        "distinguished": null, "mod_reports": [], "visited": false, "num_reports":
+        null, "ups": 2}}, {"kind": "t3", "data": {"domain": "google.com", "banned_by":
+        null, "media_embed": {}, "subreddit": "serialpodcast", "selftext_html": null,
+        "selftext": "", "likes": null, "suggested_sort": null, "user_reports": [],
+        "secure_media": null, "link_flair_text": null, "id": "3wse9y", "from_kind":
+        null, "gilded": 0, "archived": false, "clicked": false, "report_reasons":
+        null, "author": "qwteqeqwef", "media": null, "score": 1, "approved_by": null,
+        "over_18": false, "hidden": false, "num_comments": 2, "thumbnail": "default",
+        "subreddit_id": "t5_33vph", "hide_score": false, "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "secure_media_embed": {},
+        "saved": false, "removal_reason": null, "stickied": false, "from": null, "is_self":
+        false, "from_id": null, "permalink": "/r/serialpodcast/comments/3wse9y/look_at_this_now/",
+        "locked": false, "name": "t3_3wse9y", "created": 1450132218.0, "url": "https://www.google.com/",
+        "author_flair_text": null, "quarantine": false, "title": "LOOK AT THIS NOW!!!",
+        "created_utc": 1450103418.0, "distinguished": null, "mod_reports": [], "visited":
+        false, "num_reports": null, "ups": 1}}, {"kind": "t3", "data": {"domain":
+        "google.com", "banned_by": null, "media_embed": {}, "subreddit": "TrueReddit",
+        "selftext_html": null, "selftext": "", "likes": null, "suggested_sort": null,
+        "user_reports": [], "secure_media": null, "link_flair_text": null, "id": "3whcg5",
+        "from_kind": null, "gilded": 0, "archived": false, "clicked": false, "report_reasons":
+        null, "author": "droveby", "media": null, "score": 23, "approved_by": null,
+        "over_18": false, "hidden": false, "num_comments": 8, "thumbnail": "", "subreddit_id":
+        "t5_2qyt6", "hide_score": false, "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "secure_media_embed": {},
+        "saved": false, "removal_reason": null, "stickied": false, "from": null, "is_self":
+        false, "from_id": null, "permalink": "/r/TrueReddit/comments/3whcg5/our_duty_as_american_muslims_we_are_the_only_ones/",
+        "locked": false, "name": "t3_3whcg5", "created": 1449927911.0, "url": "https://www.google.com/#q=http:%2F%2Fwww.wsj.com%2Farticles%2Four-duty-as-american-muslims-1449704990%23livefyre-comment",
+        "author_flair_text": null, "quarantine": false, "title": "Our Duty as American
+        Muslims: We are the only ones who can lead a winning fight against the radicalism
+        crippling our faith.", "created_utc": 1449899111.0, "distinguished": null,
+        "mod_reports": [], "visited": false, "num_reports": null, "ups": 23}}, {"kind":
+        "t3", "data": {"domain": "google.com", "banned_by": null, "media_embed": {},
+        "subreddit": "gameDevClassifieds", "selftext_html": null, "selftext": "",
+        "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
+        null, "link_flair_text": null, "id": "3vxp9v", "from_kind": null, "gilded":
+        0, "archived": false, "clicked": false, "report_reasons": null, "author":
+        "minecraft_2004", "media": null, "score": 0, "approved_by": null, "over_18":
+        false, "hidden": false, "num_comments": 9, "thumbnail": "default", "subreddit_id":
+        "t5_2sg66", "hide_score": false, "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "secure_media_embed": {},
+        "saved": false, "removal_reason": null, "stickied": false, "from": null, "is_self":
+        false, "from_id": null, "permalink": "/r/gameDevClassifieds/comments/3vxp9v/hobby_12_year_old_looking_for_scripters_and/",
+        "locked": false, "name": "t3_3vxp9v", "created": 1449615818.0, "url": "https://www.google.com/#safe=off&amp;q=call+of+duty+world+at+war+2",
+        "author_flair_text": null, "quarantine": false, "title": "[hobby] 12 year
+        old looking for scripters and artists to build a call of duty world at war
+        remake!!", "created_utc": 1449587018.0, "distinguished": null, "mod_reports":
+        [], "visited": false, "num_reports": null, "ups": 0}}, {"kind": "t3", "data":
+        {"domain": "google.com", "banned_by": null, "media_embed": {}, "subreddit":
+        "StarWars", "selftext_html": null, "selftext": "", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "3vtdat", "from_kind": null, "gilded": 0, "archived": false, "clicked": false,
+        "report_reasons": null, "author": "r3y1a1n", "media": null, "score": 2, "approved_by":
+        null, "over_18": false, "hidden": false, "num_comments": 3, "thumbnail": "default",
+        "subreddit_id": "t5_2qi4s", "hide_score": false, "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "secure_media_embed": {},
+        "saved": false, "removal_reason": null, "stickied": false, "from": null, "is_self":
+        false, "from_id": null, "permalink": "/r/StarWars/comments/3vtdat/this_is_what_happens_when_you_google_search_a/",
+        "locked": false, "name": "t3_3vtdat", "created": 1449539454.0, "url": "https://www.google.com/#q=a+long+time+ago+in+a+galaxy+far%2C+far+away",
+        "author_flair_text": null, "quarantine": false, "title": "This is what happens
+        when you google search ''A long time ago in a galaxy far, far away''", "created_utc":
+        1449510654.0, "distinguished": null, "mod_reports": [], "visited": false,
+        "num_reports": null, "ups": 2}}, {"kind": "t3", "data": {"domain": "google.com",
+        "banned_by": null, "media_embed": {}, "subreddit": "VacuumCleaners", "selftext_html":
+        null, "selftext": "", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "3vf620", "from_kind":
+        null, "gilded": 0, "archived": false, "clicked": false, "report_reasons":
+        null, "author": "lvcsummitsales", "media": null, "score": 1, "approved_by":
+        null, "over_18": false, "hidden": false, "num_comments": 1, "thumbnail": "default",
+        "subreddit_id": "t5_2vqfg", "hide_score": false, "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "secure_media_embed": {},
+        "saved": false, "removal_reason": null, "stickied": false, "from": null, "is_self":
+        false, "from_id": null, "permalink": "/r/VacuumCleaners/comments/3vf620/leos_vacuum_center/",
+        "locked": false, "name": "t3_3vf620", "created": 1449269518.0, "url": "https://www.google.com/#q=leos+vacuum+center",
+        "author_flair_text": null, "quarantine": false, "title": "Leo\u2019s Vacuum
+        Center", "created_utc": 1449240718.0, "distinguished": null, "mod_reports":
+        [], "visited": false, "num_reports": null, "ups": 1}}, {"kind": "t3", "data":
+        {"domain": "google.com", "banned_by": null, "media_embed": {}, "subreddit":
+        "mildyinteresting", "selftext_html": null, "selftext": "", "likes": null,
+        "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "3u7yp4", "from_kind": null, "gilded": 0, "archived": false, "clicked":
+        false, "report_reasons": null, "author": "LexLol", "media": null, "score":
+        16, "approved_by": null, "over_18": false, "hidden": false, "num_comments":
+        3, "thumbnail": "default", "subreddit_id": "t5_2ti58", "hide_score": false,
+        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
+        "downs": 0, "secure_media_embed": {}, "saved": false, "removal_reason": null,
+        "stickied": false, "from": null, "is_self": false, "from_id": null, "permalink":
+        "/r/mildyinteresting/comments/3u7yp4/google_search_star_wars_easter_egg/",
+        "locked": false, "name": "t3_3u7yp4", "created": 1448491588.0, "url": "https://www.google.com/#q=A+long+time+ago+in+a+galaxy+far+far+away",
+        "author_flair_text": null, "quarantine": false, "title": "Google Search -
+        Star Wars Easter Egg", "created_utc": 1448462788.0, "distinguished": null,
+        "mod_reports": [], "visited": false, "num_reports": null, "ups": 16}}, {"kind":
+        "t3", "data": {"domain": "google.com", "banned_by": null, "media_embed": {},
+        "subreddit": "Anthropology", "selftext_html": null, "selftext": "", "likes":
+        null, "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "3u3ley", "from_kind": null, "gilded": 0, "archived": false, "clicked":
+        false, "report_reasons": null, "author": "monoleso", "media": null, "score":
+        91, "approved_by": null, "over_18": false, "hidden": false, "num_comments":
+        2, "thumbnail": "", "subreddit_id": "t5_2qkdk", "hide_score": false, "edited":
+        false, "link_flair_css_class": null, "author_flair_css_class": null, "downs":
+        0, "secure_media_embed": {}, "saved": false, "removal_reason": null, "stickied":
+        false, "from": null, "is_self": false, "from_id": null, "permalink": "/r/Anthropology/comments/3u3ley/google_honors_the_anniversary_of_lucys_discovery/",
+        "locked": false, "name": "t3_3u3ley", "created": 1448414140.0, "url": "https://www.google.com/",
+        "author_flair_text": null, "quarantine": false, "title": "Google honors the
+        anniversary of Lucy''s discovery", "created_utc": 1448385340.0, "distinguished":
+        null, "mod_reports": [], "visited": false, "num_reports": null, "ups": 91}},
+        {"kind": "t3", "data": {"domain": "google.com", "banned_by": null, "media_embed":
+        {}, "subreddit": "MensRights", "selftext_html": null, "selftext": "", "likes":
+        null, "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        "General", "id": "3tiwhk", "from_kind": null, "gilded": 0, "archived": false,
+        "clicked": false, "report_reasons": null, "author": "Nulono", "media": null,
+        "score": 24, "approved_by": null, "over_18": false, "hidden": false, "num_comments":
+        6, "thumbnail": "default", "subreddit_id": "t5_2qhk3", "hide_score": false,
+        "edited": false, "link_flair_css_class": "purple", "author_flair_css_class":
+        null, "downs": 0, "secure_media_embed": {}, "saved": false, "removal_reason":
+        null, "stickied": false, "from": null, "is_self": false, "from_id": null,
+        "permalink": "/r/MensRights/comments/3tiwhk/googles_doodle_for_international_mens_day/",
+        "locked": false, "name": "t3_3tiwhk", "created": 1448020062.0, "url": "https://www.google.com/",
+        "author_flair_text": null, "quarantine": false, "title": "Google''s doodle
+        for International Men''s Day", "created_utc": 1447991262.0, "distinguished":
+        null, "mod_reports": [], "visited": false, "num_reports": null, "ups": 24}},
+        {"kind": "t3", "data": {"domain": "google.com", "banned_by": null, "media_embed":
+        {}, "selftext_html": null, "selftext": "", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "adserver_click_url": null,
+        "link_flair_text": null, "id": "3ti5ci", "gilded": 0, "archived": false, "clicked":
+        false, "report_reasons": null, "author": "duckbear", "num_comments": 0, "score":
+        1, "approved_by": null, "over_18": false, "hidden": false, "thumbnail": "http://b.thumbs.redditmedia.com/2HITU6FY5ucmcBUn37iL-boiAMKdlWxLdB3_XKZvpTg.jpg",
+        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
+        "downs": 0, "third_party_tracking_2": null, "secure_media_embed": {}, "saved":
+        false, "removal_reason": null, "mobile_ad_url": "", "visited": false, "is_self":
+        false, "hide_score": false, "permalink": "/comments/3ti5ci/this_is_a_test/",
+        "locked": false, "name": "t3_3ti5ci", "stickied": false, "created": 1448007345.0,
+        "url": "https://www.google.com/", "author_flair_text": null, "quarantine":
+        false, "title": "This is a test", "created_utc": 1447978545.0, "href_url":
+        "https://www.google.com/", "third_party_tracking": null, "distinguished":
+        null, "media": null, "imp_pixel": null, "mod_reports": [], "promoted": true,
+        "disable_comments": false, "adserver_imp_pixel": null, "num_reports": null,
+        "ups": 1}}, {"kind": "t3", "data": {"domain": "google.com", "banned_by": null,
+        "media_embed": {}, "subreddit": "CallOfDuty", "selftext_html": null, "selftext":
+        "", "likes": null, "suggested_sort": "top", "user_reports": [], "secure_media":
+        null, "link_flair_text": null, "id": "3rok06", "from_kind": null, "gilded":
+        0, "archived": false, "clicked": false, "report_reasons": null, "author":
+        "notreallysrs", "media": null, "score": 95, "approved_by": null, "over_18":
+        false, "hidden": false, "num_comments": 27, "thumbnail": "default", "subreddit_id":
+        "t5_2rcq2", "hide_score": false, "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "secure_media_embed": {},
+        "saved": false, "removal_reason": null, "stickied": false, "from": null, "is_self":
+        false, "from_id": null, "permalink": "/r/CallOfDuty/comments/3rok06/cod_4_launched_8_years_ago_today/",
+        "locked": false, "name": "t3_3rok06", "created": 1446788232.0, "url": "https://www.google.com/#q=cod+4+release+date",
+        "author_flair_text": null, "quarantine": false, "title": "CoD 4 Launched 8
+        years ago today", "created_utc": 1446759432.0, "distinguished": null, "mod_reports":
+        [], "visited": false, "num_reports": null, "ups": 95}}, {"kind": "t3", "data":
+        {"domain": "google.com", "banned_by": null, "media_embed": {}, "subreddit":
+        "interestingasfuck", "selftext_html": null, "selftext": "", "likes": null,
+        "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "3rqawh", "from_kind": null, "gilded": 0, "archived": false, "clicked":
+        false, "report_reasons": null, "author": "hafridi", "media": null, "score":
+        1, "approved_by": null, "over_18": false, "hidden": false, "num_comments":
+        0, "thumbnail": "default", "subreddit_id": "t5_2qhsa", "hide_score": false,
+        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
+        "downs": 0, "secure_media_embed": {}, "saved": false, "removal_reason": null,
+        "stickied": false, "from": null, "is_self": false, "from_id": null, "permalink":
+        "/r/interestingasfuck/comments/3rqawh/adolphe_sax_a_vampire_check_out_the_date_of_birth/",
+        "locked": false, "name": "t3_3rqawh", "created": 1446817202.0, "url": "https://www.google.com/#q=Adolphe+Sax&amp;hl=en&amp;oi=ddle",
+        "author_flair_text": null, "quarantine": false, "title": "Adolphe Sax - A
+        Vampire? Check out the date of birth!", "created_utc": 1446788402.0, "distinguished":
+        null, "mod_reports": [], "visited": false, "num_reports": null, "ups": 1}},
+        {"kind": "t3", "data": {"domain": "google.com", "banned_by": null, "media_embed":
+        {}, "selftext_html": null, "selftext": "", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "adserver_click_url": null,
+        "link_flair_text": null, "id": "3rlg05", "gilded": 0, "archived": false, "clicked":
+        false, "report_reasons": null, "author": "filshumil", "num_comments": 0, "score":
+        1, "approved_by": null, "over_18": false, "hidden": false, "thumbnail": "http://a.thumbs.redditmedia.com/umuRcfDS9Br32o-vtAs7d-Cr1YBX8nXbG9f0zTBe7v4.png",
+        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
+        "downs": 0, "third_party_tracking_2": null, "secure_media_embed": {}, "saved":
+        false, "removal_reason": null, "mobile_ad_url": "", "visited": false, "is_self":
+        false, "hide_score": false, "permalink": "/comments/3rlg05/jfb_sfjb/", "locked":
+        false, "name": "t3_3rlg05", "stickied": false, "created": 1446730945.0, "url":
+        "https://www.google.com/", "author_flair_text": null, "quarantine": false,
+        "title": "jfb sfjb", "created_utc": 1446702145.0, "href_url": "https://www.google.com/",
+        "third_party_tracking": null, "distinguished": null, "media": null, "imp_pixel":
+        null, "mod_reports": [], "promoted": true, "disable_comments": false, "adserver_imp_pixel":
+        null, "num_reports": null, "ups": 1}}, {"kind": "t3", "data": {"domain": "google.com",
+        "banned_by": null, "media_embed": {}, "subreddit": "stevenuniverse", "selftext_html":
+        null, "selftext": "", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "3qsxay", "from_kind":
+        null, "gilded": 0, "archived": false, "clicked": false, "report_reasons":
+        null, "author": "bananaflame", "media": null, "score": 79, "approved_by":
+        null, "over_18": false, "hidden": false, "preview": {"images": [{"source":
+        {"url": "https://i.redditmedia.com/BqAj5NK4QsHnCsyrv2C8iDFOJe_5Rw0-jfzKsdgNOLc.jpg?s=e245051e22074a214badee1b7eb9294c",
+        "width": 369, "height": 230}, "resolutions": [{"url": "https://i.redditmedia.com/BqAj5NK4QsHnCsyrv2C8iDFOJe_5Rw0-jfzKsdgNOLc.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=8b8ba7d514ac1ea22bcf58ebc7609e84",
+        "width": 108, "height": 67}, {"url": "https://i.redditmedia.com/BqAj5NK4QsHnCsyrv2C8iDFOJe_5Rw0-jfzKsdgNOLc.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=9e34f5b0e7b2e8727aa005ad2ba2eae0",
+        "width": 216, "height": 134}, {"url": "https://i.redditmedia.com/BqAj5NK4QsHnCsyrv2C8iDFOJe_5Rw0-jfzKsdgNOLc.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=3a49a8c7b84bf1c4748d43d3edbb57c8",
+        "width": 320, "height": 199}], "variants": {}, "id": "E5wB5Sq-bxRy7_50AVwbruofN6a5aBCziSl_QY_qY1U"}]},
+        "num_comments": 44, "thumbnail": "http://b.thumbs.redditmedia.com/D_-Iy2sgrjytl-hnJ1h27Ao4Hg7ScwAfNPu60clIjQI.jpg",
+        "subreddit_id": "t5_2viyl", "hide_score": false, "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": "16connie", "downs": 0, "secure_media_embed":
+        {}, "saved": false, "removal_reason": null, "post_hint": "link", "stickied":
+        false, "from": null, "is_self": false, "from_id": null, "permalink": "/r/stevenuniverse/comments/3qsxay/this_years_halloween_google_doodle_features_music/",
+        "locked": false, "name": "t3_3qsxay", "created": 1446209763.0, "url": "https://www.google.com/",
+        "author_flair_text": "", "quarantine": false, "title": "This year''s halloween
+        google doodle features music from Aivi and Surasshu (!), and is really reminiscent
+        of SU in other ways too. Go check it out!", "created_utc": 1446180963.0, "distinguished":
+        null, "mod_reports": [], "visited": false, "num_reports": null, "ups": 79}},
+        {"kind": "t3", "data": {"domain": "google.com", "banned_by": null, "media_embed":
+        {}, "subreddit": "FPHCSS", "selftext_html": null, "selftext": "", "likes":
+        null, "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "3qxhym", "from_kind": null, "gilded": 0, "archived": false, "clicked":
+        false, "report_reasons": null, "author": "HomerSimpsonXronize", "media": null,
+        "score": 1, "approved_by": null, "over_18": false, "hidden": false, "num_comments":
+        0, "thumbnail": "default", "subreddit_id": "t5_37v3m", "hide_score": false,
+        "edited": false, "link_flair_css_class": null, "author_flair_css_class": "rainbow",
+        "downs": 0, "secure_media_embed": {}, "saved": false, "removal_reason": null,
+        "stickied": false, "from": null, "is_self": false, "from_id": null, "permalink":
+        "/r/FPHCSS/comments/3qxhym/test_post/", "locked": false, "name": "t3_3qxhym",
+        "created": 1446293262.0, "url": "https://www.google.com/", "author_flair_text":
+        "Metaphorically Hitler", "quarantine": false, "title": "test post", "created_utc":
+        1446264462.0, "distinguished": null, "mod_reports": [], "visited": false,
+        "num_reports": null, "ups": 1}}, {"kind": "t3", "data": {"domain": "google.com",
+        "banned_by": null, "media_embed": {}, "subreddit": "test", "selftext_html":
+        null, "selftext": "", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "3qw3hh", "from_kind":
+        null, "gilded": 0, "archived": false, "clicked": false, "report_reasons":
+        null, "author": "plantfuckerr", "media": null, "score": 1, "approved_by":
+        null, "over_18": false, "hidden": false, "preview": {"images": [{"source":
+        {"url": "https://i.redditmedia.com/BqAj5NK4QsHnCsyrv2C8iDFOJe_5Rw0-jfzKsdgNOLc.jpg?s=e245051e22074a214badee1b7eb9294c",
+        "width": 369, "height": 230}, "resolutions": [{"url": "https://i.redditmedia.com/BqAj5NK4QsHnCsyrv2C8iDFOJe_5Rw0-jfzKsdgNOLc.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=8b8ba7d514ac1ea22bcf58ebc7609e84",
+        "width": 108, "height": 67}, {"url": "https://i.redditmedia.com/BqAj5NK4QsHnCsyrv2C8iDFOJe_5Rw0-jfzKsdgNOLc.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=9e34f5b0e7b2e8727aa005ad2ba2eae0",
+        "width": 216, "height": 134}, {"url": "https://i.redditmedia.com/BqAj5NK4QsHnCsyrv2C8iDFOJe_5Rw0-jfzKsdgNOLc.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=3a49a8c7b84bf1c4748d43d3edbb57c8",
+        "width": 320, "height": 199}], "variants": {}, "id": "E5wB5Sq-bxRy7_50AVwbruofN6a5aBCziSl_QY_qY1U"}]},
+        "num_comments": 0, "thumbnail": "http://b.thumbs.redditmedia.com/D_-Iy2sgrjytl-hnJ1h27Ao4Hg7ScwAfNPu60clIjQI.jpg",
+        "subreddit_id": "t5_2qh23", "hide_score": false, "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "secure_media_embed": {},
+        "saved": false, "removal_reason": null, "post_hint": "link", "stickied": false,
+        "from": null, "is_self": false, "from_id": null, "permalink": "/r/test/comments/3qw3hh/link_test/",
+        "locked": false, "name": "t3_3qw3hh", "created": 1446268815.0, "url": "https://www.google.com/",
+        "author_flair_text": null, "quarantine": false, "title": "link test", "created_utc":
+        1446240015.0, "distinguished": null, "mod_reports": [], "visited": false,
+        "num_reports": null, "ups": 1}}, {"kind": "t3", "data": {"domain": "google.com",
+        "banned_by": null, "media_embed": {}, "subreddit": "Blue", "selftext_html":
+        null, "selftext": "", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "3qvc4l", "from_kind":
+        null, "gilded": 0, "archived": false, "clicked": false, "report_reasons":
+        null, "author": "mosh2841", "media": null, "score": 0, "approved_by": null,
+        "over_18": false, "hidden": false, "num_comments": 0, "thumbnail": "default",
+        "subreddit_id": "t5_2qk1w", "hide_score": false, "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "secure_media_embed": {},
+        "saved": false, "removal_reason": null, "stickied": false, "from": null, "is_self":
+        false, "from_id": null, "permalink": "/r/Blue/comments/3qvc4l/help_collect_halloween_candy_for_the_blue_team/",
+        "locked": false, "name": "t3_3qvc4l", "created": 1446258040.0, "url": "https://www.google.com/",
+        "author_flair_text": null, "quarantine": false, "title": "Help collect Halloween
+        candy for the blue team!", "created_utc": 1446229240.0, "distinguished": null,
+        "mod_reports": [], "visited": false, "num_reports": null, "ups": 0}}, {"kind":
+        "t3", "data": {"domain": "google.com", "banned_by": null, "media_embed": {},
+        "subreddit": "mildlyinteresting", "selftext_html": null, "selftext": "", "likes":
+        null, "suggested_sort": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "3qsy26", "from_kind": null, "gilded": 0, "archived": false, "clicked":
+        false, "report_reasons": null, "author": "SonofIndia", "media": null, "score":
+        1, "approved_by": null, "over_18": false, "hidden": false, "num_comments":
+        0, "thumbnail": "default", "subreddit_id": "t5_2ti4h", "hide_score": false,
+        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
+        "downs": 0, "secure_media_embed": {}, "saved": false, "removal_reason": null,
+        "stickied": false, "from": null, "is_self": false, "from_id": null, "permalink":
+        "/r/mildlyinteresting/comments/3qsy26/the_google_doodle_today_is_awesome_give_it_a_try/",
+        "locked": false, "name": "t3_3qsy26", "created": 1446210214.0, "url": "https://www.google.com/",
+        "author_flair_text": null, "quarantine": false, "title": "The google doodle
+        today is awesome! Give it a try. Happy Halloween!", "created_utc": 1446181414.0,
+        "distinguished": null, "mod_reports": [], "visited": false, "num_reports":
+        null, "ups": 1}}], "after": null, "before": null}}'
+    http_version: 
+  recorded_at: Fri, 15 Jan 2016 18:34:20 GMT
+recorded_with: VCR 3.0.1

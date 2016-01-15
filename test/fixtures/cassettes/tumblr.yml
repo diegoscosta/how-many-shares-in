@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.tumblr.com/v2/share/stats?url=https://www.google.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      P3p:
+      - 'CP="Tumblr''s privacy policy is available here: https://www.tumblr.com/policy/en/privacy"'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '108'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Fri, 15 Jan 2016 18:34:08 GMT
+      X-Cache:
+      - MISS from sense8.cw
+      X-Cache-Lookup:
+      - MISS from sense8.cw:3128
+      Via:
+      - 1.1 sense8.cw (squid)
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meta":{"status":200,"msg":"OK"},"response":{"url":"https:\/\/www.google.com\/","note_count":39}}'
+    http_version: 
+  recorded_at: Fri, 15 Jan 2016 18:34:16 GMT
+recorded_with: VCR 3.0.1
