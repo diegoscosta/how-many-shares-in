@@ -17,7 +17,7 @@ Then inside the how-many-shares-in folder run:
 bundle install
 ```
 
-You can also add 'How Many Shares In' in your
+You can also add 'How Many Shares In' in your script
 ```ruby
 require 'how-many-shares-in/lib/HowManySharesIn.rb'
 ```
@@ -26,6 +26,11 @@ require 'how-many-shares-in/lib/HowManySharesIn.rb'
 ```ruby
 require 'how-many-shares-in/lib/networks/pinterest.rb'
 ```
+
+Dependencies
+----
+* Bundle
+* HTTParty
 
 Usage
 -----
